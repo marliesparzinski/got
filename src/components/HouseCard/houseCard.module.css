@@ -1,6 +1,9 @@
 .houseName {
+  @apply mb-4;
   @apply bg-slate-800 text-white text-center p-2;
   @apply font-century uppercase;
+
+  min-height: 64px;
 }
 
 .houseCard {

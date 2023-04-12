@@ -1,5 +1,6 @@
 .houseMembers {
   @apply grid grid-cols-3 gap-4;
+  @apply mx-8;
   @apply text-white;
   @apply bg-black;
 }

@@ -30,7 +30,7 @@ export default function Filters() {
       hasDiedOut: (query.hasDiedOut === 'true'),
       hasTitles: (query.hasTitles === 'true')
     })
-  }, [ query])
+  }, [ query ])
 
 
   return(

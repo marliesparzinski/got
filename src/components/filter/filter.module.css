@@ -29,6 +29,11 @@
   @apply text-white opacity-40 font-century uppercase tracking-wide;
 }
 
+.filterCheckbox:not(:checked):hover + .filterName {
+  @apply bg-orange-500;
+  @apply opacity-100;
+}
+
 .filterCheckbox:checked + .filterName {
   @apply opacity-100;
   @apply bg-orange-600;
