@@ -35,11 +35,23 @@ export default function Filters() {
 
   return(
     <div className={ styles.filters }>
-      { filters.map((filter: Filters) => 
-        <div key={filter} className={ styles.filter }>
-          <input type="checkbox" id={filter} checked={searchParameters[filter]} onChange={ () => handleSetParameter(filter)}/>
-          <label htmlFor={filter}>{filter}</label>
-        </div>
+      { filters.map((filter: Filters) => {
+        const filterName = {
+          'hasSeats': 'houses with seats',
+          'hasDiedOut': 'houses who died out', 
+          'hasTitles': 'houses with titles'
+        }[filter];
+
+        return (
+          <div key={filter} className={ styles.filter }>
+            <label className={ styles.filterLabel }>
+              <input className={ styles.filterCheckbox } type="checkbox" id={filter} checked={searchParameters[filter]} onChange={ () => handleSetParameter(filter)}/>
+              <span className={ styles.filterName }>{filterName}</span>
+            </label>
+          </div>
+
+        )
+      }
       ) }
     </div>);
   

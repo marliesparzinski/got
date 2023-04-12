@@ -22,5 +22,5 @@
 }
 
 .homePage {
-  @apply bg-black h-screen;
+  @apply bg-black min-h-screen;
 }
