@@ -1,0 +1,24 @@
+.houseName {
+  @apply bg-slate-800 text-white text-center p-2;
+  @apply font-century uppercase;
+}
+
+.houseCard {
+  @apply flex flex-col;
+  @apply text-white;
+}
+
+.houseField {
+  @apply pb-4;
+}
+
+.houseInfo {
+  @apply grid;
+
+  grid-template-columns: 1fr 3fr;
+}
+
+.houseFieldLabel {
+  @apply pl-3;
+  @apply font-bold;
+}

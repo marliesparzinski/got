@@ -1,0 +1,27 @@
+.houseMembers {
+  @apply grid grid-cols-3 gap-4;
+  @apply text-white;
+  @apply bg-black;
+}
+
+.houseHero {
+  @apply flex flex-col items-center justify-center;
+  @apply h-64;
+  @apply bg-black;
+  @apply text-white;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+}
+
+.houseTitle {
+  @apply font-got text-4xl text-center;
+}
+
+.houseSubtitle {
+  @apply pt-3;
+  @apply font-century text-2xl uppercase;
+}
+
+.housePage {
+  @apply h-screen;
+  @apply bg-black;
+}

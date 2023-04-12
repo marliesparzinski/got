@@ -1,0 +1,10 @@
+.filter {
+  @apply m-2;
+  @apply text-white;
+}
+
+.filters {
+  @apply flex justify-center;
+  @apply w-full;
+  @apply m-4;
+}

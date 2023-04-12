@@ -1,0 +1,16 @@
+.memberCard {
+  @apply border border-white rounded-md p-4;
+}
+
+.memberField:not(:last-child) {
+  @apply border-b-white border-b-2 pb-4 mb-4;
+}
+
+.memberInfoLabel {
+  @apply font-bold;
+}
+
+.memberInfoFields {
+  @apply flex flex-col;
+}
+
