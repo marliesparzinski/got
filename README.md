@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+TODOs:
+
+- Get all results instead of first 50
+- House with no seats shows just empty page
+- Main page has height of 100vh, make this min-height
+- Filters are very ugly and prettify the name of the filter there
+- Check HTML semantics
+- unused dependency classnames
+- check naming
+- tests, obviously
+- loading skeletons
+
 ## Getting Started
 
 First, run the development server:
